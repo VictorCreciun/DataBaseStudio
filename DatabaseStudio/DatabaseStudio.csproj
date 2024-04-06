@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="copy.png" />
+    <None Remove="cut.png" />
+    <None Remove="delete.png" />
+    <None Remove="execute.png" />
+    <None Remove="line.png" />
+    <None Remove="newQuery.png" />
+    <None Remove="paste.png" />
+    <None Remove="save.png" />
+    <None Remove="saveAs.png" />
+    <None Remove="selectAll.png" />
+    <None Remove="stop.png" />
+    <None Remove="undo.png" />
+    <None Remove="verify.png" />
+    <None Remove="verify.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="copy.png" />
+    <Resource Include="cut.png" />
+    <Resource Include="delete.png" />
+    <Resource Include="execute.png" />
+    <Resource Include="line.png" />
+    <Resource Include="newQuery.png" />
+    <Resource Include="paste.png" />
+    <Resource Include="save.png" />
+    <Resource Include="saveAs.png" />
+    <Resource Include="selectAll.png" />
+    <Resource Include="stop.png" />
+    <Resource Include="undo.png" />
+    <Resource Include="verify.png" />
+    <Resource Include="verify.svg" />
+  </ItemGroup>
+
+</Project>
